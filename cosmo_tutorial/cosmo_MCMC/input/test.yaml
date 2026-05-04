@@ -1,0 +1,45 @@
+theory:
+  classy:
+    path: /Users/andreacozzumbo/GSSIprojects/acme_tutorials/cosmo_tutorial/myclass/code/classy
+    ignore_obsolete: true
+likelihood:
+  likelihood.MMcosmology:
+    data_directory: /Users/andreacozzumbo/GSSIprojects/acme_tutorials/cosmo_tutorial/output/kde/ET_LCDM_Planck18_fiducial
+    python_path: /Users/andreacozzumbo/GSSIprojects/acme_tutorials/cosmo_tutorial/cosmo_MCMC
+    gw_network: ET
+    grb_dataset: fiducial
+    fiducial_cosmology: LCDM_Planck18
+    interpolation_method: kde
+params:
+  omega_b:
+    value: 0.0224
+    latex: \Omega_\mathrm{b} h^2
+  Omega_cdm:
+    prior:
+      min: 0.05
+      max: 0.7
+    ref:
+      dist: norm
+      loc: 0.26
+      scale: 0.01
+    proposal: 0.05
+    latex: \Omega_\mathrm{c}
+  H0:
+    prior:
+      min: 20
+      max: 100
+    ref:
+      dist: norm
+      loc: 67
+      scale: 0.5
+    proposal: 1.0
+    latex: H_\mathrm{0}
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+  Omega_Lambda:
+    latex: \Omega_\Lambda
+sampler:
+  mcmc:
+    max_tries: 10000000
+    Rminus1_stop: 0.01
+output: /Users/andreacozzumbo/GSSIprojects/acme_tutorials/cosmo_tutorial/cosmo_MCMC/chains/test1/test

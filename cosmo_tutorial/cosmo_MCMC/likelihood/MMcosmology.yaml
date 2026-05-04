@@ -1,0 +1,30 @@
+#--------------------- #
+# Data has been stored #
+#--------------------- #
+data_directory: /home/cozzumbo/AC/Theseus/data/uniform_mass
+
+#---------------------#
+#  Fiducial Cosmology #
+#---------------------#
+
+fiducial_cosmology: LCDM_Planck18
+
+#---------------------#
+#  Detector Networks  #
+#---------------------#
+gw_network: ET
+
+#---------------------#
+#    GRB catalog      #
+#---------------------#
+grb_dataset: fiducial
+
+
+#--------------------- #
+interpolation_method: kde
+
+#--------------------- #
+vp_correction: False
+
+
+
