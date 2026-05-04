@@ -159,3 +159,5 @@ _build
 
 # Generated skymaps (do not commit)
 raven/skymaps/
+
+!cosmo_tutorial/cosmo_MCMC/input/test.yaml
