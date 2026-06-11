@@ -49,6 +49,7 @@ html:
   baseurl: https://samueleronchini.github.io/acme_tutorials/
   extra_paths:
     - slides
+    - KN/bat_glimpse-2.pdf
   extra_footer: |
     <div class="footer-text">
       ACME Tutorials - By <a href="https://samueleronchini.github.io" target="_blank">Samuele Ronchini</a>

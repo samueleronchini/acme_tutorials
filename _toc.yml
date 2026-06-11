@@ -8,6 +8,7 @@ parts:
     chapters:
       # - file: KN/intro
       - file: KN/Kilonova_Toy_Model
+      - file: KN/pdf_presentation
   - caption: NITRATES
     chapters:
       - file: nitrates/intro
