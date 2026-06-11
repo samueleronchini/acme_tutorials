@@ -10,6 +10,7 @@ Welcome to the ACME Tutorials site! This collection provides hands-on tutorials 
 - **BAT-GLIMPSE**: Gamma-ray Localization using Imaging and Mosaic techniques for Pointing and Slew Epochs
 - **MAGGPY**: Multi-messenger Astronomy with Gravitational waves and Gamma-ray bursts in PYthon
 - **NITRATES**: Non-Imaging Transient Reconstruction And TEmporal Search
+- **Kilonova toy model**: brief intro to KN physics and light curve modelling 
 
 ## Interactive Notebooks
 

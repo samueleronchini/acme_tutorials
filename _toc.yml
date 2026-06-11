@@ -4,6 +4,10 @@
 format: jb-book
 root: intro
 parts:
+  - caption: Kilonova
+    chapters:
+      # - file: KN/intro
+      - file: KN/Kilonova_Toy_Model
   - caption: NITRATES
     chapters:
       - file: nitrates/intro
