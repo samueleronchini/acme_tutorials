@@ -55,6 +55,11 @@ parts:
       - file: GWFish/EW_170817
       - file: GWFish/supernova_signals
       - file: GWFish/cosmo_tutorial/cosmo_tutorial
+  - caption: Targeted Detectability Range
+    chapters:
+      - file: tdr/intro
+      - file: tdr/01_gw_and_paper
+      - file: tdr/02_tdr_priors
 
   
   
