@@ -60,6 +60,7 @@ parts:
       - file: tdr/intro
       - file: tdr/01_gw_and_paper
       - file: tdr/02_tdr_priors
+      - file: tdr/03_tdr_time_evolution
 
   
   
